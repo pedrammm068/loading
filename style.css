@@ -1,0 +1,53 @@
+ .center{
+    display: flex;
+
+ }
+ 
+ 
+ .card{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation-name: pedi;
+    animation-duration: 5s;
+    border-radius: 10000000px;
+    animation-delay: .9s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    display: flex;
+    justify-content: center;
+}
+
+
+@keyframes pedi{
+
+0% {
+    transform: translate(200px,0);
+background-color: blue;
+display: block;
+
+
+}   
+
+25%{ background-color: brown;
+
+border-radius: 0  ;
+transform: translate(200px , 200px);
+}
+
+50%{
+    background-color: chartreuse;
+   
+    transform: translate(200px , 400px);
+}
+
+75%{
+
+transform: translate(400px , 0px);
+
+}
+100%{
+    transform: translate(100px ,100px);
+}
+}
+

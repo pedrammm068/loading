@@ -1,0 +1,15 @@
+.header{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+   
+    .header__logo{
+        width: 500px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .header__logo__para{
+
+    }
+}
