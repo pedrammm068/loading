@@ -1,28 +1,26 @@
- .center{
-    display: flex;
 
- }
  
  
  .card{
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
+    margin: 0 10px 10px 10px;
     background-color: blue;
     animation-name: pedi;
     animation-duration: 5s;
     border-radius: 10000000px;
-    animation-delay: .9s;
+    animation-delay: 0.2s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
-    display: flex;
-    justify-content: center;
+    
+  
 }
 
 
 @keyframes pedi{
 
 0% {
-    transform: translate(200px,0);
+    transform: translate(500px, 0);
 background-color: blue;
 display: block;
 
@@ -31,23 +29,91 @@ display: block;
 
 25%{ background-color: brown;
 
-border-radius: 0  ;
-transform: translate(200px , 200px);
+transform: translate(500px , 100px);
 }
 
 50%{
     background-color: chartreuse;
    
-    transform: translate(200px , 400px);
+    transform: translate(100px , 50px);
 }
 
 75%{
-
-transform: translate(400px , 0px);
+background-color: darkslateblue;
+transform: translate(300px , 300px);
 
 }
 100%{
-    transform: translate(100px ,100px);
+    background-color:blue;
+    transform: translate(0px ,0px);
 }
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation-name: pedram;
+    animation-duration: 5s;
+    border-radius: 10000000px;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+
 }
 
+@keyframes pedram{
+
+    0% {
+        transform: translate(0, 0);
+    background-color: aquamarine;
+    display: block;
+    
+    
+    }   
+    
+    25%{ background-color: rgb(147, 177, 12);
+    
+    transform: translate(950px , 0px);
+    }
+    
+    50%{
+        background-color: goldenrod;
+       
+        transform: translateX(50px);
+    }
+    
+    75%{
+    background-color: darkgray;
+    transform: translate(300px , 200px);
+    
+    }
+    100%{
+        background-color: aquamarine;
+        transform: translate(0px ,0px);
+    }
+    }
+    .span{
+        width: 80%;
+        height: 1px;
+        background-color: blue;
+        animation-name: pedram068;
+    
+    }
+    @keyframes pedram068{
+
+        0% {
+        background-color: rgb(0, 0, 0);
+        display: block;
+        rotate: 200px;
+        }   
+        
+        50%{
+            background-color: goldenrod;
+            rotate: 100%;
+        }
+    
+        100%{
+            background-color: aquamarine;
+            rotate: 100%;
+        }
+        }
